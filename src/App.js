@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import UseStateHook from "./LifecycleHooks/UseStateHook";
+
+import ScreenComponent from "./LifecycleHooks/customHook/ScreenComponent";
+
+// import UseReducerHook from "./LifecycleHooks/UseReducerHook";
+
+// import UseCallbackHook from "./LifecycleHooks/UseCallbackHook";
+// import UseContextHook from "./LifecycleHooks/UseContextHook/UseContextHook";
+
+// import UseMemoHook from "./LifecycleHooks/UseMemoHook";
+
+// import UseRefHook from "./LifecycleHooks/UseEffectHook/UseRefHook";
+
+// import Home from "./LifecycleHooks/UseEffectHook/Home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseStateHook /> */}
+      {/* <Home /> */}
+      {/* <UseRefHook /> */}
+      {/* <UseMemoHook /> */}
+      {/* <UseCallbackHook /> */}
+      {/* <UseContextHook /> */}
+      {/* <UseReducerHook /> */}
+      <ScreenComponent />
     </div>
   );
 }
